@@ -81,9 +81,7 @@ const data = [
   {
     title: "How to Eat While Coding",
     date: "Jul 21st, 2019",
-    firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
-          hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
-          Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
+    firstParagraph: `To Code and eat you must eat and code. To Code and eat you must eat and code.To Code and eat you must eat and code. To Code and eat you must eat and code.To Code and eat you must eat and code. To Code and eat you must eat and code.To Code and eat you must eat and code.    `,
     secondParagraph: `Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor, hodor. Hodor hodor, hodor, hodor hodor. Hodor! Hodor hodor, hodor;
           hodor hodor hodor? Hodor, hodor. Hodor. Hodor, hodor - HODOR hodor, hodor hodor hodor! Hodor, hodor. Hodor. Hodor, HODOR
           hodor, hodor hodor, hodor, hodor hodor. Hodor hodor - hodor - hodor... Hodor hodor hodor hodor hodor hodor hodor?! Hodor
@@ -132,7 +130,7 @@ function articleMaker(item) {
   
   const expandButton = document.createElement("span");
   expandButton.classList.add("expandButton");
-  expandButton.textContent = 'click'
+  expandButton.textContent = 'click to open'
   expandButton.addEventListener('click', element => {
     article.classList.toggle('article-open')
   })

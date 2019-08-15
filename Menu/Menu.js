@@ -54,7 +54,6 @@ function mainMenu(item) {
     listItem.textContent = element;
     listContainer.appendChild(listItem)
   }
- 
 
   menuButton.addEventListener('click', element => {
     menuContainer.classList.toggle('menu--open');
