@@ -132,8 +132,8 @@ function articleMaker(item) {
   
   const expandButton = document.createElement("span");
   expandButton.classList.add("expandButton");
-  expandButton.addEventListener('click', () => {
-    const toggle = 'expand';
+  expandButton.textContent = 'click'
+  expandButton.addEventListener('click', element => {
     article.classList.toggle('article-open')
   })
   article.appendChild(expandButton)
